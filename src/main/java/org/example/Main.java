@@ -1,6 +1,10 @@
 package org.example;
 
-
+/**
+ * Clase para probar el Javadoc
+ * @author María José Casalins Pina
+ * @version 1.0
+ */
 public class Main {
 
 
