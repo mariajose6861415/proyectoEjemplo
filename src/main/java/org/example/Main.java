@@ -15,8 +15,13 @@ public class Main {
         tabla = llenar(n); //Inicializamos el array
         int suma = sumar(tabla); //Calculamos el sumatorio
         System.out.println("La suma es: " + suma);
-    }
+        imprimirArray(tabla);
 
+    }
+    public static void imprimirArray(int[] tabla){
+        for (int i = 0; i < tabla.length; i++) //Recorrido
+            System.out.println(tabla[i]);
+    }
     public static int[] llenar(int n) {
         int[] tabla = new int[n]; //Creación del array
         for (int i = 0; i < n; i++) //Recorrido
